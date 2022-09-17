@@ -43,15 +43,15 @@ export default function LanguagePopover() {
   return (
     <>
       <IconButton
-        ref={anchorRef}
-        onClick={handleOpen}
+        // ref={anchorRef}
+        // onClick={handleOpen}
         sx={{
           padding: 0,
           width: 44,
           height: 44,
-          ...(open && {
-            bgcolor: (theme) => alpha(theme.palette.primary.main, theme.palette.action.focusOpacity),
-          }),
+          // ...(open && {
+          //   bgcolor: (theme) => alpha(theme.palette.primary.main, theme.palette.action.focusOpacity),
+          // }),
         }}
       >
         <QuestionAnswerOutlinedIcon />
@@ -63,7 +63,7 @@ export default function LanguagePopover() {
         /> */}
       </IconButton>
 
-      <MenuPopover
+      {/* <MenuPopover
         open={open}
         onClose={handleClose}
         anchorEl={anchorRef.current}
@@ -83,7 +83,7 @@ export default function LanguagePopover() {
             </MenuItem>
           ))}
         </Stack>
-      </MenuPopover>
+      </MenuPopover> */}
     </>
   );
 }

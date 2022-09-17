@@ -149,7 +149,7 @@ export default function PremiumPackage() {
           <Card>
             <Box p={3}>
               <Stack direction="column" alignItems="center" justifyContent="center" mb={8}>
-                <Typography variant="h3" sx={{fontWeight:900}}>Premium Plans</Typography>
+               <strong> <Typography variant="h3" sx={{fontWeight:900}}>Premium Plans</Typography> </strong>
                 <Typography sx={{color:'#757575'}}>No Contracts, No Surprise fees</Typography>
               </Stack>
               <Box m={5} pl={5} pr={5} mb={8} >

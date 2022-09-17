@@ -114,7 +114,9 @@ export default function ProductRewards() {
               //   startIcon={<Iconify icon="eva:plus-fill" />}
               sx={{ p: '8px', pl: '20px', pr: '20px' }}
             >
-              <AddCircleOutlineIcon />
+              <AddCircleOutlineIcon sx={{
+                  marginRight: '10px',
+                }}/>
               Add
             </Button>
           </Stack>

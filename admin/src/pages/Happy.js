@@ -170,7 +170,7 @@ export default function Happy() {
                       <TextField fullWidth label="Couple Name" variant="outlined" />
                     </Grid>
                     <Grid item xs={12} sm={4} md={4}>
-                      <Typography variant="subtitle1">Image</Typography>
+                      {/* <Typography variant="subtitle1">Image</Typography> */}
                       <HappyImg />
                     </Grid>
                   </Grid>
@@ -205,7 +205,9 @@ export default function Happy() {
                     //   startIcon={<Iconify icon="eva:plus-fill" />}
                     sx={{ pl: '20px', pr: '20px' }}
                   >
-                    <AddCircleOutlineIcon/>
+                    <AddCircleOutlineIcon sx={{
+                  marginRight: '10px',
+                }}/>
                     Add New
                   </Button>
                 </Stack>

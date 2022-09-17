@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types';
 import { Box, Stack, Link, Card, Button, Divider, Typography, CardHeader, Grid } from '@mui/material';
 import { styled } from '@mui/material/styles';
-
+import Iconify from '../../../components/Iconify';
 // import { Grid, Card, CardHeader } from '@mui/material';
 import ShopProductCard from '../products/ProductCard';
 
@@ -27,16 +27,19 @@ export default function AppHappyStories({title,products,...other}) {
           <Box sx={{ display: 'flex', justifyContent:'space-between' }}>
             <CardHeader title={title} />
             <InfoStyle>
-              <Button
+            <Button size="small" color="inherit" sx={{color:'black'}} endIcon={<Iconify icon={'eva:arrow-ios-forward-fill'} />}>
+          View all
+        </Button>
+              {/* <Button
                 size="small"
                 sx={{
                   textTransform: 'none',
-                  // color: '#795548',
+                  // color: '',
                   fontWeight: 600,
                 }}
               >
                 See All
-              </Button>
+              </Button> */}
             </InfoStyle>
           </Box>
 
