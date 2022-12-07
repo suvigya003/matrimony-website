@@ -15,6 +15,7 @@ import AboutYou from './pages/AboutYou';
 import PremiumPackage from './pages/PremiumPackage';
 
 
+
 // ----------------------------------------------------------------------
 
 export default function Router() {
@@ -29,6 +30,21 @@ export default function Router() {
         { path: 'blog', element: <Blog /> },
         { path: 'aboutYou', element: <AboutYou /> },
         { path: 'premiumPackage', element: <PremiumPackage /> },
+        // { path: 'enquiryFM', element: <EnquiryFM /> },
+        // { path: 'enquirySP', element: <EnquirySP /> },
+        // { path: 'enquiryWP', element: <EnquiryWP /> },
+        // { path: 'enquiryFC', element: <EnquiryFC /> },
+        // { path: 'enquirySC', element: <EnquirySC /> },
+        // { path: 'snagListFM', element: <SnagListFM /> },
+        // { path: 'snagListSP', element: <SnagListSP /> },
+        // { path: 'snagListWP', element: <SnagListWP /> },
+        // { path: 'snagListFC', element: <SnagListFC /> },
+        // { path: 'snagListCC', element: <SnagListCC /> },
+        // { path: 'myOrders', element: <MyOrders /> },
+        // { path: 'master', element: <Master /> },
+        // { path: 'orderClose', element: <OrderClose /> },
+        // { path: 'workPartner', element: <WorkPartner /> },
+        // { path: 'surveyPartner', element: <SurveyPartner /> },
       ],
     },
     {
